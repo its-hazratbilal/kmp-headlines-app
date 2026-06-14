@@ -86,10 +86,10 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 # 📟 Tablet
 
 <p align="center">
-  <img src="./screenshots/Tablet-1.PNG" width="180"/>
-  <img src="./screenshots/Tablet-2.PNG" width="180"/>  
-  <img src="./screenshots/Tablet-3.PNG" width="180"/>
-  <img src="./screenshots/Tablet-4.PNG" width="180"/>
+  <img src="./screenshots/Tablet-1.PNG" width="190"/>
+  <img src="./screenshots/Tablet-2.PNG" width="190"/>  
+  <img src="./screenshots/Tablet-3.PNG" width="190"/>
+  <img src="./screenshots/Tablet-4.PNG" width="190"/>
 </p>
 
 ---
