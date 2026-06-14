@@ -1,0 +1,26 @@
+CREATE TABLE ArticleEntity (
+    url TEXT NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT,
+    urlToImage TEXT,
+    publishedAt TEXT NOT NULL,
+    content TEXT,
+    author TEXT,
+    sourceName TEXT NOT NULL
+);
+
+insertArticle:
+INSERT OR REPLACE INTO ArticleEntity(url, title, description, urlToImage, publishedAt, content, author, sourceName)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+getAllArticles:
+SELECT * FROM ArticleEntity;
+
+deleteArticle:
+DELETE FROM ArticleEntity WHERE url = ?;
+
+deleteAllArticles:
+DELETE FROM ArticleEntity;
+
+isBookmarked:
+SELECT COUNT(*) FROM ArticleEntity WHERE url = ?;
