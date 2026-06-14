@@ -156,8 +156,8 @@ Production-ready multi-platform setup
 
 ### 👨‍💻 Author
 Bilal
-Sr. Android Engineer
-(Android | Kotlin Multiplatform | Compose)
+Senior Android Engineer
+(Android | Kotlin | Jetpack Compose | MVVM | Kotlin Multiplatform (KMP) | Flutter)
 
 ### ⭐ Support
 If you like this project:
