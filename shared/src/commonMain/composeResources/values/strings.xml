@@ -18,7 +18,7 @@
     <string name="dark_mode">Dark Mode</string>
     <string name="light_mode">Light Mode</string>
     <string name="system_default">System Default</string>
-    <string name="choose_a_theme">Choose a theme</string>
+    <string name="choose_a_theme">Choose app theme</string>
     <string name="type_to_search">Type to search!</string>
     <string name="news_detail">News Detail</string>
     <string name="no_news">No News</string>
