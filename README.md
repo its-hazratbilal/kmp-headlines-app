@@ -116,9 +116,7 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 
 ### 1️⃣ Clone the repository
 
-```bash
 git clone https://github.com/your-username/headlines-kmp.git
-```bash
 
 ### 2️⃣ Open in IDE
 
