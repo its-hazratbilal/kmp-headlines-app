@@ -79,7 +79,6 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
   <img src="./screenshots/Mobile-3.PNG" width="160"/>
   <img src="./screenshots/Mobile-4.PNG" width="160"/>
   <img src="./screenshots/Mobile-5.PNG" width="160"/>
-  <img src="./screenshots/Mobile-6.PNG" width="160"/>
 </p>
 
 ---
@@ -88,8 +87,9 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 
 <p align="center">
   <img src="./screenshots/Tablet-1.PNG" width="240"/>
-  <img src="./screenshots/Tablet-2.PNG" width="240"/>
+  <img src="./screenshots/Tablet-2.PNG" width="240"/>  
   <img src="./screenshots/Tablet-3.PNG" width="240"/>
+  <img src="./screenshots/Tablet-4.PNG" width="240"/>
 </p>
 
 ---
