@@ -1,7 +1,7 @@
 # 📰 Headlines – Kotlin Multiplatform News App
 
 <p align="center">
-  <img src="./screenshots/Logo.png" width="120" alt="Headlines Logo"/>
+  <img src="./screenshots/logo.png" width="120" alt="Headlines Logo"/>
 </p>
 
 <p align="center">
