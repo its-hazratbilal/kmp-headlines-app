@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>A modern cross-platform News application built with Kotlin Multiplatform & Compose Multiplatform</b><br/>
-  Android • iOS • Desktop • Tablet
+  Android • iOS • Tablet • Desktop
 </p>
 
 <p align="center">
