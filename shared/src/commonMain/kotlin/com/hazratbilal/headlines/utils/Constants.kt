@@ -4,14 +4,11 @@ import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.scaleIn
-import com.hazratbilal.headlines.data.model.Article
-import com.hazratbilal.headlines.data.model.Source
 import com.hazratbilal.headlines.navigation.NavigationItem
 import com.hazratbilal.headlines.navigation.Route
 import headlines.shared.generated.resources.Res
 import headlines.shared.generated.resources.*
 import org.jetbrains.compose.resources.StringResource
-import kotlin.random.Random
 
 const val BASE_URL = "https://newsapi.org/v2/"
 const val API_KEY = "PLACE-YOUR-NEWS-API-KEY-HERE"
