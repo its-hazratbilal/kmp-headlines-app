@@ -1,101 +1,109 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop (JVM).
+# 📰 Headlines – Kotlin Multiplatform News App
 
-* [/iosApp](./iosApp/iosApp) contains an iOS application. Even if you’re sharing your UI with Compose Multiplatform,
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+<p align="center">
+  <img src="./screenshots/Logo.png" width="120" alt="Headlines Logo"/>
+</p>
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+<p align="center">
+  <b>A modern cross-platform News application built with Kotlin Multiplatform & Compose Multiplatform</b><br/>
+  Android • iOS • Desktop • Tablet
+</p>
 
-📰 Headlines – Kotlin Multiplatform News App
-A modern Kotlin Multiplatform (KMP) news application built with Compose Multiplatform, delivering a smooth and consistent reading experience across Android, iOS, and Desktop platforms.
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-Multiplatform-7F52FF?style=for-the-badge&logo=kotlin"/>
+  <img src="https://img.shields.io/badge/Compose-Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose"/>
+  <img src="https://img.shields.io/badge/MVVM-Architecture-FF6F00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Cross--Platform-Android%20%7C%20iOS%20%7C%20Desktop-00C853?style=for-the-badge"/>
+</p>
 
-🎥 Demo
-Click below to watch the app in action:
-👉 (Add your YouTube demo link here)
+---
 
-🚀 Overview
-Headlines is a Kotlin Multiplatform News App designed to provide a fast, clean, and unified news reading experience across multiple platforms.
-Built using Compose Multiplatform, it shares most of the codebase between Android, iOS, and Desktop (Windows, macOS, Linux), ensuring high performance and consistency while maintaining native-like UI behavior.
+## 📱 Overview
 
-✨ Features
-🗞️ Top Headlines Feed
-Stay updated with the latest trending news.
-🔍 Smart Search
-Quickly find news based on topics or keywords.
-📖 Detailed Article View
-Read full articles with a clean and distraction-free UI.
-🔖 Bookmarks
-Save articles for later reading (offline support ready).
-🌍 Cross-Platform
-Runs seamlessly on:
-Android
-iOS
-Windows
-macOS
-Linux
-🎨 Modern UI
-Built with Jetpack Compose / Compose Multiplatform
-🧭 Type-Safe Navigation
-Safe and scalable navigation structure.
-🧱 MVVM Architecture
-Clean separation of UI, logic, and data layers.
+**Headlines** is a modern **Kotlin Multiplatform News App** designed to deliver a fast, clean, and unified reading experience across multiple platforms.
 
-🛠️ Tech Stack
-Kotlin Multiplatform (KMP)
-Compose Multiplatform
-Ktor – Networking layer
-kotlinx.serialization – JSON parsing
-Coroutines – Async operations
-Coil – Image loading
-SQLDelight – Local database
-DataStore – Key-value storage
-Kermit – Logging
-Navigation Compose
-BuildKonfig – Build-time configuration
+Built using **Compose Multiplatform**, it shares a single codebase for business logic while delivering native-like UI across Android, iOS, Desktop, and Tablet devices.
 
-🧠 Architecture
-MVVM (Model–View–ViewModel)
-Shared business logic across platforms
-Platform-specific UI layers
-Repository pattern for data handling
+---
 
-⚙️ Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/kmp-headlines-app.git
+## ✨ Features
 
-2. Open in IDE
-Open the project in:
-Android Studio (latest)
-IntelliJ IDEA
+- 🗞️ Top Headlines feed
+- 🔍 Smart search for news articles
+- 📖 Clean article reading experience
+- 🔖 Bookmark & save articles
+- 🌙 Modern UI with Compose Multiplatform
+- 📱 Fully responsive (Mobile, Tablet, Desktop)
+- ⚡ Fast and lightweight architecture
+- 🧭 Type-safe navigation
+- 🧱 MVVM clean architecture
 
-3. API Setup
-This app uses a News API, obtain an API key from [News Api ](https://newsapi.org/).
-Goto shared -> commonMain -> utils -> Constants.kt
-and past:
-const val API_KEY = "PLACE-YOUR-NEWS-API-KEY-HERE"
+---
 
-4. Run the Project
-Android
-Run composeApp module
-Desktop
-./gradlew :composeApp:run
-Desktop (Hot Reload)
-./gradlew desktopRun -DmainClass=MainKt
-iOS
-Run iosApp from Xcode or IDE configuration
+## 🛠️ Tech Stack
 
-📦 Why this project?
-This project demonstrates:
-Real-world KMP architecture
-Scalable shared code design
-Modern Compose UI practices
-Clean architecture principles
-Production-ready structure
+- Kotlin Multiplatform (KMP)
+- Compose Multiplatform
+- Ktor (Networking)
+- SQLDelight (Database)
+- Koin (Dependency Injection)
+- MVVM Architecture
+- Jetpack Compose
+- Coroutines
+- kotlinx.serialization
 
-📸 Screenshots
+---
+
+## 🧠 Architecture
+
+- MVVM (Model–View–ViewModel)
+- Repository Pattern
+- Shared business logic across all platforms
+- Platform-specific UI layers where required
+
+---
+
+## 📸 Screenshots
+
+---
+
+### 📱 Mobile
+
+<p align="center">
+  <img src="./screenshots/Mobile-1.png" width="180"/>
+  <img src="./screenshots/Mobile-2.png" width="180"/>
+  <img src="./screenshots/Mobile-3.png" width="180"/>
+  <img src="./screenshots/Mobile-4.png" width="180"/>
+  <img src="./screenshots/Mobile-5.png" width="180"/>
+  <img src="./screenshots/Mobile-6.png" width="180"/>
+</p>
+
+---
+
+### 📟 Tablet
+
+<p align="center">
+  <img src="./screenshots/Tablet-1.png" width="250"/>
+  <img src="./screenshots/Tablet-2.png" width="250"/>
+  <img src="./screenshots/Tablet-3.png" width="250"/>
+</p>
+
+---
+
+### 💻 Desktop
+
+<p align="center">
+  <img src="./screenshots/Desktop-1.png" width="300"/>
+  <img src="./screenshots/Desktop-2.png" width="300"/>
+  <img src="./screenshots/Desktop-3.png" width="300"/>
+  <img src="./screenshots/Desktop-4.png" width="300"/>
+  <img src="./screenshots/Desktop-5.png" width="300"/>
+</p>
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/headlines-kmp.git
