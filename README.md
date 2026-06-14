@@ -130,7 +130,6 @@ Get API key from:
 
 Then add it inside:
 shared/src/commonMain/.../Constants.kt
-```bash
 const val API_KEY = "YOUR_API_KEY"
 
 ### 4️⃣ Run the Project
@@ -138,11 +137,9 @@ Android
 Run composeApp module
 
 Desktop
-```bash
 ./gradlew :composeApp:run
 
 Desktop (Hot Reload)
-```bash
 ./gradlew desktopRun -DmainClass=MainKt
 
 iOS
