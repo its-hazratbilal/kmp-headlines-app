@@ -101,7 +101,6 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
   <img src="./screenshots/Desktop-2.PNG" width="300"/>
   <img src="./screenshots/Desktop-3.PNG" width="300"/>
   <img src="./screenshots/Desktop-4.PNG" width="300"/>
-  <img src="./screenshots/Desktop-5.PNG" width="300"/>
 </p>
 
 ---
