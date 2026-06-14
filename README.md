@@ -74,7 +74,7 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 # 📱 Mobile
 
 <p align="center">
-  <img src="./screenshots/Mobile-1.png" width="160"/>
+  <img src="./screenshots/Mobile-1.PNG" width="160"/>
   <img src="./screenshots/Mobile-2.png" width="160"/>
   <img src="./screenshots/Mobile-3.png" width="160"/>
   <img src="./screenshots/Mobile-4.png" width="160"/>
