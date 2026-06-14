@@ -75,11 +75,11 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 
 <p align="center">
   <img src="./screenshots/Mobile-1.PNG" width="160"/>
-  <img src="./screenshots/Mobile-2.png" width="160"/>
-  <img src="./screenshots/Mobile-3.png" width="160"/>
-  <img src="./screenshots/Mobile-4.png" width="160"/>
-  <img src="./screenshots/Mobile-5.png" width="160"/>
-  <img src="./screenshots/Mobile-6.png" width="160"/>
+  <img src="./screenshots/Mobile-2.PNG" width="160"/>
+  <img src="./screenshots/Mobile-3.PNG" width="160"/>
+  <img src="./screenshots/Mobile-4.PNG" width="160"/>
+  <img src="./screenshots/Mobile-5.PNG" width="160"/>
+  <img src="./screenshots/Mobile-6.PNG" width="160"/>
 </p>
 
 ---
@@ -87,9 +87,9 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 # 📟 Tablet
 
 <p align="center">
-  <img src="./screenshots/Tablet-1.png" width="240"/>
-  <img src="./screenshots/Tablet-2.png" width="240"/>
-  <img src="./screenshots/Tablet-3.png" width="240"/>
+  <img src="./screenshots/Tablet-1.PNG" width="240"/>
+  <img src="./screenshots/Tablet-2.PNG" width="240"/>
+  <img src="./screenshots/Tablet-3.PNG" width="240"/>
 </p>
 
 ---
@@ -97,11 +97,11 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 # 💻 Desktop
 
 <p align="center">
-  <img src="./screenshots/Desktop-1.png" width="300"/>
-  <img src="./screenshots/Desktop-2.png" width="300"/>
-  <img src="./screenshots/Desktop-3.png" width="300"/>
-  <img src="./screenshots/Desktop-4.png" width="300"/>
-  <img src="./screenshots/Desktop-5.png" width="300"/>
+  <img src="./screenshots/Desktop-1.PNG" width="300"/>
+  <img src="./screenshots/Desktop-2.PNG" width="300"/>
+  <img src="./screenshots/Desktop-3.PNG" width="300"/>
+  <img src="./screenshots/Desktop-4.PNG" width="300"/>
+  <img src="./screenshots/Desktop-5.PNG" width="300"/>
 </p>
 
 ---
