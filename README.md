@@ -78,7 +78,7 @@ IntelliJ IDEA
 This app uses a News API, obtain an API key from [News Api ](https://newsapi.org/).
 Goto shared -> commonMain -> utils -> Constants.kt
 and past:
-const val API_KEY = "API KEY"
+const val API_KEY = "PLACE-YOUR-NEWS-API-KEY-HERE"
 
 4. Run the Project
 Android
