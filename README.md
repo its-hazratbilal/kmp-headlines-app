@@ -97,10 +97,10 @@ Built using **Compose Multiplatform**, it shares a single codebase for business 
 # 💻 Desktop
 
 <p align="center">
-  <img src="./screenshots/Desktop-1.PNG" width="300"/>
-  <img src="./screenshots/Desktop-2.PNG" width="300"/>
-  <img src="./screenshots/Desktop-3.PNG" width="300"/>
-  <img src="./screenshots/Desktop-4.PNG" width="300"/>
+  <img src="./screenshots/Desktop-1.PNG" width="240"/>
+  <img src="./screenshots/Desktop-2.PNG" width="240"/>
+  <img src="./screenshots/Desktop-3.PNG" width="240"/>
+  <img src="./screenshots/Desktop-4.PNG" width="240"/>
 </p>
 
 ---
