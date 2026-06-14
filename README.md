@@ -25,8 +25,8 @@
 Built using **Compose Multiplatform**, it shares a single codebase for business logic while delivering native-like UI across:
 - Android 📱
 - iOS 🍎
-- Desktop 💻
 - Tablet 📟
+- Desktop 💻
 
 ---
 
