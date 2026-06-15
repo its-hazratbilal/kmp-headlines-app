@@ -21,10 +21,29 @@ compose.desktop {
     application {
         mainClass = "com.hazratbilal.headlines.MainKt"
 
+        jvmArgs += listOf(
+            "--add-opens", "java.base/sun.misc=ALL-UNNAMED",
+            "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+            "--add-opens", "java.base/java.nio=ALL-UNNAMED",
+            "--add-exports", "java.base/sun.misc=ALL-UNNAMED"
+        )
+
+        buildTypes.release.proguard {
+            isEnabled.set(false)
+        }
+
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.hazratbilal.headlines"
             packageVersion = "1.0.0"
+
+            modules(
+                "java.sql",
+                "java.net.http",
+                "jdk.crypto.ec",
+                "jdk.unsupported"
+            )
+
         }
     }
 }

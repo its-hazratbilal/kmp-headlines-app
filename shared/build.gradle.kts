@@ -56,7 +56,6 @@ kotlin {
             // SqlDelight
             implementation(libs.sqldelight.android)
             // Koin DI
-            implementation(libs.compose.uiToolingPreview)
             implementation(libs.ktor.client.android)
             implementation(libs.koin.android)
         }

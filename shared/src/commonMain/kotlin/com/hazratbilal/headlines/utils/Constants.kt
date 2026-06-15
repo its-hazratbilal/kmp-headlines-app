@@ -11,7 +11,7 @@ import headlines.shared.generated.resources.*
 import org.jetbrains.compose.resources.StringResource
 
 const val BASE_URL = "https://newsapi.org/v2/"
-const val API_KEY = "PLACE-YOUR-NEWS-API-KEY-HERE"
+const val API_KEY = "YOUR_API_KEY"
 
 val categoryList = arrayListOf(
     "All",
