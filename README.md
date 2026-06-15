@@ -64,12 +64,15 @@ Built with **Compose Multiplatform**, it shares a single codebase for both busin
 ---
 
 ## 🧠 Architecture
-UI Layer       → Composable screens + ViewModels
-Domain Layer   → Repository interfaces
-Data Layer     → Remote (Ktor) + Local (SQLDelight + DataStore)
-DI Layer       → Koin modules (common + platform-specific)
+
+```
+UI Layer     → Composable Screens + ViewModels
+Data Layer   → Repository + Remote (Ktor) + Local (SQLDelight + DataStore)
+DI Layer     → Koin Modules (Common + Platform-specific)
+```
+
 - **MVVM** (Model–View–ViewModel)
-- **Repository pattern** (single source of truth)
+- **Repository Pattern** (single source of truth)
 - **Clean separation** of shared and platform-specific code
 - **`expect/actual`** for platform-specific implementations
 
@@ -131,13 +134,19 @@ cd kmp-headlines-app
 
 ### 2️⃣ Add your API key
 
-Create a `local.properties` file in the root of the project and add:
+Get a free API key from [newsapi.org](https://newsapi.org/)
 
-```properties
-API_KEY=your_newsapi_key_here
+Then open:
+```
+shared/src/commonMain/kotlin/com/hazratbilal/headlines/utils/Constants.kt
 ```
 
-> ⚠️ Never commit `local.properties` — it is already in `.gitignore`
+And replace:
+```kotlin
+const val API_KEY = "YOUR_API_KEY"
+```
+
+> ⚠️ Keep your API key private — never commit it to GitHub
 
 ### 3️⃣ Run on Android
 
@@ -178,8 +187,8 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-**Hazrat Bilal**
-Senior Android Engineer
+**Hazrat Bilal**  
+Senior Android Engineer  
 Kotlin • Jetpack Compose • Kotlin Multiplatform (KMP) • MVVM • Flutter
 
 [![GitHub](https://img.shields.io/badge/GitHub-hazratbilal-181717?style=flat&logo=github)](https://github.com/hazratbilal)
@@ -198,5 +207,5 @@ If you find this project useful:
 
 ---
 
-## 📄 License
+## 📄 License  
 MIT License — feel free to use, modify, and distribute.
