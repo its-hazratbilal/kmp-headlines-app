@@ -112,7 +112,7 @@ DI Layer     → Koin Modules (Common + Platform-specific)
 
 ## 🎥 Demo
 
-👉 [Watch on YouTube](https://www.youtube.com/your-link-here)
+👉 [Watch on YouTube](https://www.youtube.com/watch?v=ID00KGyJ2u8)
 
 ---
 
