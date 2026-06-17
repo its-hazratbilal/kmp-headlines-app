@@ -158,9 +158,7 @@ Open the project in Android Studio and run the `androidApp` module.
 ./gradlew :desktopApp:run
 ```
 
-### 5️⃣ Run on iOS
-
-> ⚠️ Note: This target has not been tested by the author (no access to macOS/Xcode). The shared code is structured to support iOS via Kotlin Multiplatform, but the iOS app module may need additional verification. 
+### 5️⃣ Run on iOS 
 
 Open `iosApp/iosApp.xcodeproj` in Xcode and run on a simulator or device.
 
