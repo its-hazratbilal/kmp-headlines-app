@@ -25,7 +25,7 @@
 Built with **Compose Multiplatform**, it shares a single codebase for both business logic and UI while delivering a native-like experience across:
 
 - 📱 Android
-- 🍎 iOS
+- 🍎 iOS *(shared module supports it; not yet verified — no macOS hardware available for testing)*
 - 📟 Tablet
 - 💻 Desktop (Windows, macOS, Linux)
 
@@ -122,7 +122,7 @@ DI Layer     → Koin Modules (Common + Platform-specific)
 
 - Android Studio Hedgehog or later
 - JDK 17+
-- Xcode 15+ (for iOS)
+- Xcode 15+ (for iOS — note: iOS target has not been build-tested by the author due to lack of macOS hardware; contributions/testing welcome)
 - NewsAPI key from [newsapi.org](https://newsapi.org/)
 
 ### 1️⃣ Clone the repository
@@ -159,6 +159,8 @@ Open the project in Android Studio and run the `androidApp` module.
 ```
 
 ### 5️⃣ Run on iOS
+
+> ⚠️ Note: This target has not been tested by the author (no access to macOS/Xcode). The shared code is structured to support iOS via Kotlin Multiplatform, but the iOS app module may need additional verification. 
 
 Open `iosApp/iosApp.xcodeproj` in Xcode and run on a simulator or device.
 
