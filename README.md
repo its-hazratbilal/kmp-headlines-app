@@ -122,7 +122,7 @@ DI Layer     → Koin Modules (Common + Platform-specific)
 
 - Android Studio Hedgehog or later
 - JDK 17+
-- Xcode 15+ (for iOS — note: iOS target has not been build-tested by the author due to lack of macOS hardware; contributions/testing welcome)
+- Xcode 15+ (for iOS — note: iOS target has not been tested by the author due to lack of macOS hardware; contributions/testing welcome)
 - NewsAPI key from [newsapi.org](https://newsapi.org/)
 
 ### 1️⃣ Clone the repository
