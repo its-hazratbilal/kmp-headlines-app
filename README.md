@@ -129,7 +129,6 @@ DI Layer     → Koin Modules (Common + Platform-specific)
 
 ```bash
 git clone https://github.com/hazratbilal/kmp-headlines-app.git
-cd kmp-headlines-app
 ```
 
 ### 2️⃣ Add your API key
@@ -169,7 +168,7 @@ Open `iosApp/iosApp.xcodeproj` in Xcode and run on a simulator or device.
 | Platform | Download |
 |---|---|
 | 🤖 Android | [Download APK](https://github.com/its-hazratbilal/kmp-headlines-app/releases) |
-| 💻 Desktop | [Download](https://github.com/its-hazratbilal/kmp-headlines-app/releases) |
+| 💻 Desktop | [Download Release](https://github.com/its-hazratbilal/kmp-headlines-app/releases) |
 
 ---
 
@@ -189,7 +188,7 @@ This project demonstrates:
 
 **Hazrat Bilal**  
 Senior Android Engineer  
-Kotlin • Jetpack Compose • Kotlin Multiplatform (KMP) • MVVM • Flutter
+Kotlin • Jetpack Compose • Clean Architecture • Kotlin Multiplatform (KMP) • Flutter
 
 [![GitHub](https://img.shields.io/badge/GitHub-hazratbilal-181717?style=flat&logo=github)](https://github.com/its-hazratbilal)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/hazrat-bilal-24672817a)
