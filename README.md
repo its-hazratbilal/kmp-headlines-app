@@ -128,7 +128,7 @@ DI Layer     → Koin Modules (Common + Platform-specific)
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/hazratbilal/kmp-headlines-app.git
+git clone https://github.com/its-hazratbilal/kmp-headlines-app.git
 ```
 
 ### 2️⃣ Add your API key
