@@ -191,7 +191,7 @@ Senior Android Engineer
 Kotlin • Jetpack Compose • Clean Architecture • Kotlin Multiplatform (KMP) • Flutter
 
 [![GitHub](https://img.shields.io/badge/GitHub-hazratbilal-181717?style=flat&logo=github)](https://github.com/its-hazratbilal)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/hazrat-bilal-24672817a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/its-hazratbilal)
 
 ---
 
